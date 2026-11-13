@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapay Zekâ Rehberi - İçerikler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Yapay Zekâ Rehberi</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="icerikler.html" class="active">İçerikler</a></li>
+                <li><a href="hakkinda.html">Hakkında</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Yapay Zekâ Uygulamaları</h1>
+        
+        <div class="search-section">
+            <label for="search-input">Başlığa Göre Ara:</label>
+            <div class="search-controls">
+                <input type="text" id="search-input" placeholder="Örn: ChatGPT, Görsel, Kodlama...">
+                <button type="button" id="clear-btn">Temizle</button>
+            </div>
+            <p id="result-counter">Toplam 5 içerik gösteriliyor.</p>
+        </div>
+
+        <p id="empty-message" class="hidden">Aramanızla eşleşen bir içerik bulunamadı.</p>
+
+        <div id="cards-container" class="cards-grid">
+            <article class="card">
+                <h2>Metin Tabanlı Üretken Yapay Zekâ (ChatGPT)</h2>
+                <p>Kullanıcıların doğal dilde sorular sorarak makale, özet, e-posta veya fikir üretmesini sağlayan sohbet tabanlı yapay zekâ asistanıdır.</p>
+                <span class="tag"><strong>Çözdüğü Sorun / Örnek:</strong> Uzun bir akademik metni saniyeler içinde özetleyerek zaman kazandırır.</span>
+            </article>
+
+            <article class="card">
+                <h2>Görsel Oluşturma Araçları (Midjourney)</h2>
+                <p>Metin tabanlı komutları (prompt) analiz ederek sıfırdan yüksek kaliteli dijital çizimler ve sanat eserleri üreten yapay zekâ aracıdır.</p>
+                <span class="tag"><strong>Çözdüğü Sorun / Örnek:</strong> Tasarım bilgisi olmayan birinin sunumu için özgün kapak görseli üretmesini sağlar.</span>
+            </article>
+
+            <article class="card">
+                <h2>Yapay Zekâ Destekli Çeviri (DeepL)</h2>
+                <p>Yapay sinir ağları kullanarak diller arasındaki anlam bütünlüğünü ve deyimleri bozmadan doğal çeviriler yapan dil aracıdır.</p>
+                <span class="tag"><strong>Çözdüğü Sorun / Örnek:</strong> Yabancı dildeki teknik bir dokümanı bağlamını kaybetmeden Türkçeye çevirir.</span>
+            </article>
+
+            <article class="card">
+                <h2>Ses ve Konuşma Sentezi (ElevenLabs)</h2>
+                <p>Yazılı metinleri duygu ve tonlama içeren, gerçeğinden ayırt edilmesi zor insan seslerine dönüştüren ses teknolojisidir.</p>
+                <span class="tag"><strong>Çözdüğü Sorun / Örnek:</strong> Eğitim videoları için stüdyo kaydına gerek kalmadan profesyonel seslendirme oluşturur.</span>
+            </article>
+
+            <article class="card">
+                <h2>Kodlama Asistanları (GitHub Copilot)</h2>
+                <p>Yazılımcıların yazdığı kodu gerçek zamanlı analiz ederek sonraki satırları tahmin eden ve kod önerileri sunan geliştirici aracıdır.</p>
+                <span class="tag"><strong>Çözdüğü Sorun / Örnek:</strong> Tekrarlayan kod bloklarını otomatik tamamlayarak yazılım geliştirme süresini kısaltır.</span>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Yapay Zekâ Rehberi - BPR201 Proje Ödevi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
